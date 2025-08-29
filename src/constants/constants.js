@@ -629,6 +629,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Hook",
       "Context API",
       "LLM",
+      "Laravel",
       "Android apps development",
       "AI spech to text",
       "Firebase",
