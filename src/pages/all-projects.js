@@ -27,13 +27,13 @@ const AllProjects = () => {
         setFilterBy("PHP");
         break;
 
-      case "react":
-        setData([...projects].filter((p) => p.mainType === "react"));
-        setFilterBy("React");
+      case "website":
+        setData([...projects].filter((p) => p.mainType === "website"));
+        setFilterBy("website");
         break;
-      case "reactnative":
-        setData([...projects].filter((p) => p.mainType === "react"));
-        setFilterBy("React");
+      case "mobile":
+        setData([...projects].filter((p) => p.mainType === "mobile"));
+        setFilterBy("mobile");
         break;
 
       default:

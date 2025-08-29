@@ -1,0 +1,1 @@
+I can make a Mobile Movies App compatible with the Android and iPhone version through FLutter working environment with Firebase control panel and database

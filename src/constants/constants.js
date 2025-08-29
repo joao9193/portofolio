@@ -36,9 +36,9 @@ export const projects = [
       }
     ],
     tags: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML", "SCSS"],
-    id: 6,
+    id: 19,
     order: 98,
-    mainType: "php",
+    mainType: "website",
   },
   {
     title: "React Todo/Blog",
@@ -84,9 +84,9 @@ export const projects = [
       "Reddit API",
       "localstorage",
     ],
-    id: 4,
+    id: 2,
     order: 94,
-    mainType: "react",
+    mainType: "website",
   },
   {
     title: "Cryptocurrency",
@@ -137,9 +137,9 @@ export const projects = [
       "Web3",
       "ChartJS",
     ],
-    id: 7,
-    order: 93,
-    mainType: "react",
+    id: 4,
+    order: 1,
+    mainType: "website",
   },
   {
     title: "RLibrary",
@@ -198,9 +198,9 @@ export const projects = [
       "Firebase/Firestore",
       "Material UI",
     ],
-    id: 9,
+    id: 5,
     order: 91,
-    mainType: "react",
+    mainType: "website",
   },
   {
     title: "Chat Room [Test]",
@@ -256,9 +256,9 @@ export const projects = [
       "MongoDB",
       "React Error Boundary",
     ],
-    id: 12,
-    order: 88,
-    mainType: "react",
+    id: 6,
+    order: 100,
+    mainType: "website",
   },
   {
     title: "Crypto Investment Plans",
@@ -320,14 +320,14 @@ export const projects = [
       "REST API",
       "GraphQL",
     ],
-    id: 2,
+    id: 7,
     order: 88,
-    mainType: "react",
+    mainType: "website",
   },
   {
     title: "The Editors Market",
     description:
-      "In summary, the The Editors Market ecosystem presents an innovative approach to a complex crypto-trading strategy that is characterized by a proprietary ERC20 based decentralized asset management system and fully integrated internal wallets that utilize hard storage technologies.",
+      "In summary, Shop New Arrivals Online | Women's Fashion.",
     image: "images/projects/The Editors Market/1.png",
     imageWebp: "images/projects/The Editors Market/1.png",
     images: [
@@ -363,56 +363,9 @@ export const projects = [
       "MySQL",
       "Laravel Error Boundary",
     ],
-    id: 13,
+    id: 8,
     order: 88,
-    mainType: "laravel",
-  },
-  {
-    title: "DivCash",
-    description:
-      "In summary, Crypto investment plans or contracts. 100 Day Contract, 0.5% Daily Earning, 1% Daily Capital Release.",
-    image: "images/projects/DivCash/1.png",
-    imageWebp: "images/projects/DivCash/1.png",
-    images: [
-      {
-        original: "images/projects/DivCash/1.png",
-        loading: "lazy",
-        originalAlt: "DivCash Page",
-      },
-      {
-        original: "images/projects/DivCash/1.png",
-        loading: "lazy",
-        originalAlt: "DivCash Page",
-      },
-      {
-        original: "images/projects/DivCash/2.png",
-        loading: "lazy",
-        originalAlt: "DivCash Page",
-      },
-      {
-        original: "images/projects/DivCash/3.png",
-        loading: "lazy",
-        originalAlt: "DivCash Page",
-      },
-      {
-        original: "images/projects/DivCash/4.png",
-        loading: "lazy",
-        originalAlt: "DivCash Page",
-      },
-    ],
-    tags: [
-      "Vue.js",
-      "Web3.js",
-      "AJAX",
-      "Ant Design",
-      "Database Administration",
-      "Laravel",
-      "MySQL",
-      "Cryptocurrency",
-    ],
-    id: 3,
-    order: 88,
-    mainType: "blockchain",
+    mainType: "website",
   },
   {
     title: "Falabella",
@@ -454,9 +407,9 @@ export const projects = [
       "Node.js",
       "MongoDB",
     ],
-    id: 4,
-    order: 88,
-    mainType: "blockchain",
+    id: 9,
+    order: 4,
+    mainType: "website",
   },
   {
     title: "Mcafee Magic",
@@ -464,7 +417,7 @@ export const projects = [
       `McAfee Magic is a new and revolutionary, cryptocurrency trading platform
 McAfee Magic enables both manual and automated trading, across multiple cryptocurrency exchanges, all at the same time and from the comfort of a single user interface!
 The ‘magic’ is being able to make a snap trade, while your pre-set automated bots are making 100’s of trades for you, (on different exchanges), in the background! – that’s McAfee Magic.`,
-    image: "images/projects/Mcafee Magic/2.png",
+    image: "images/projects/Mcafee Magic/3.png",
     images: [
       {
         original: "images/projects/Mcafee Magic/1.png",
@@ -501,15 +454,15 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "OpenAI",
       "cryptocurrency",
     ],
-    id: 1,
-    order: 88,
-    mainType: "react",
+    id: 89,
+    order: 1,
+    mainType: "website",
   },
   {
     title: "Indicadores de Gestión",
     description:
       `In summary, The project is based on the management of indicators (creation, maintenance, changes) that are considered within the company, there are types of indicators according to the way in which values are entered, some are to insert a value directly and others depend on formulas that will be calculated with the values entered there or from some other indicator.`,
-    image: "images/projects/Indicadores de Gestión/1.png",
+    image: "images/projects/Indicadores de Gestión/4.png",
     imageWebp: "images/projects/Indicadores de Gestión/1.png",
     images: [
       {
@@ -544,9 +497,9 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Database Administration",
       "Firebase",
     ],
-    id: 5,
-    order: 88,
-    mainType: "next",
+    id: 99,
+    order: 2,
+    mainType: "website",
   },
   {
     title: "Movies App",
@@ -581,16 +534,58 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Ai video generator",
       "Firebase",
     ],
-    id: 7,
+    id: 12,
+    order: 5,
+    mainType: "mobile",
+  },
+  {
+    title: "Shopping List & Recipes",
+    description:
+      `In summary, I can make a Shopping List & Recipes compatible with the Android and iPhone version through React-Native working environment with Firebase control panel and database`,
+    image: "images/projects/Bring! Shopping List & Recipes/0.png",
+    imageWebp: "images/projects/Bring! Shopping List & Recipes/0.png",
+    images: [
+      {
+        original: "images/projects/Bring! Shopping List & Recipes/1.png",
+        loading: "lazy",
+        originalAlt: "Bring! Shopping List & Recipes Page",
+      },
+      {
+        original: "images/projects/Bring! Shopping List & Recipes/2.png",
+        loading: "lazy",
+        originalAlt: "Bring! Shopping List & Recipes Page",
+      },
+      {
+        original: "images/projects/Bring! Shopping List & Recipes/3.png",
+        loading: "lazy",
+        originalAlt: "Bring! Shopping List & Recipes Page",
+      },
+      {
+        original: "images/projects/Bring! Shopping List & Recipes/4.png",
+        loading: "lazy",
+        originalAlt: "Bring! Shopping List & Recipes Page",
+      },
+    ],
+    tags: [
+      "React Native",
+      "Tailwind CSS",
+      "Hook",
+      "Context API",
+      "LLM",
+      "Android apps development",
+      "Ai video generator",
+      "Firebase",
+    ],
+    id: 13,
     order: 88,
     mainType: "mobile",
   },
     {
-    title: "Shop App",
+    title: "Shop App-efootwear",
     description:
       `In summary, I can create an easy and very convenient online store in Flutter language with Firebase database. It has a very beautiful UI interface.`,
     image: "images/projects/Shop App/0.png",
-    imageWebp: "images/projects/Shop App/0.webp",
+    imageWebp: "images/projects/Shop App/0.png",
     images: [
       {
         original: "images/projects/Shop App/1.webp",
@@ -638,7 +633,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Ai video generator",
       "Firebase",
     ],
-    id: 7,
+    id: 14,
     order: 88,
     mainType: "mobile",
   },
@@ -692,7 +687,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Android apps development",
       "Firebase",
     ],
-    id: 9,
+    id: 15,
     order: 88,
     mainType: "mobile",
   },

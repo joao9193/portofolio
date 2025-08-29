@@ -17,38 +17,38 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       >
         All
       </Button>
-      <Button
+      {/* <Button
         type="button"
         className={filterBy === "JavaScript" ? "active" : null}
         aria-label="Filter by JS"
         onClick={() => filter("javascript")}
       >
         <SiJavascript />
-      </Button>
+      </Button> */}
       <Button
         type="button"
-        className={filterBy === "React" ? "active" : null}
-        aria-label="Filter by ReactJS"
-        onClick={() => filter("react")}
+        className={filterBy === "Website" ? "active" : null}
+        aria-label="Filter by WebSite"
+        onClick={() => filter("website")}
       >
         <SiReact />
       </Button>
       <Button
         type="button"
-        className={filterBy === "ReactNative" ? "active" : null}
-        aria-label="Filter by ReactNative"
-        onClick={() => filter("reactnative")}
+        className={filterBy === "Mobile App" ? "active" : null}
+        aria-label="Filter by Mobile App"
+        onClick={() => filter("mobile")}
       >
         <SiAndroid />
       </Button>
-      <Button
+      {/* <Button
         type="button"
         className={filterBy === "PHP" ? "active" : null}
         aria-label="Filter by PHP"
         onClick={() => filter("php")}
       >
         <FaPhp />
-      </Button>
+      </Button> */}
     </FilterContainer>
   </section>
 );
