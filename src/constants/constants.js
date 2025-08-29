@@ -359,7 +359,7 @@ export const projects = [
       "AJAX",
       "Tailwind CSS",
       "Database Administration",
-      "Laravel",
+      "Azure",
       "MySQL",
       "Laravel Error Boundary",
     ],
