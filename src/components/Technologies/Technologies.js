@@ -71,7 +71,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             Git: Gtihub, GitLab, Bitbucket <br />
-            API: REST, GraphQL(Apollo, Helix, AWS Amplify) <br />
+            API: REST, Stripe, GraphQL(Apollo, Helix, AWS Amplify) <br />
             Cloud Server: AWS(S3, EC2, Lambda), Azure, Firebase, Docker
           </ListParagraph>
         </ListContainer>
