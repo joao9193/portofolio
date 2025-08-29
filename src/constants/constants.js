@@ -325,36 +325,31 @@ export const projects = [
     mainType: "react",
   },
   {
-    title: "Apextrader",
+    title: "The Editors Market",
     description:
-      "In summary, the apextrader ecosystem presents an innovative approach to a complex crypto-trading strategy that is characterized by a proprietary ERC20 based decentralized asset management system and fully integrated internal wallets that utilize hard storage technologies.",
-    image: "images/projects/Apextrader/1.png",
-    imageWebp: "images/projects/Apextrader/1.png",
+      "In summary, the The Editors Market ecosystem presents an innovative approach to a complex crypto-trading strategy that is characterized by a proprietary ERC20 based decentralized asset management system and fully integrated internal wallets that utilize hard storage technologies.",
+    image: "images/projects/The Editors Market/1.png",
+    imageWebp: "images/projects/The Editors Market/1.png",
     images: [
       {
-        original: "images/projects/Apextrader/1.png",
+        original: "images/projects/The Editors Market/1.png",
         loading: "lazy",
-        originalAlt: "Apextrader Dashborder",
+        originalAlt: "The Editors Market Dashborder",
       },
       {
-        original: "images/projects/Apextrader/1.png",
+        original: "images/projects/The Editors Market/1.png",
         loading: "lazy",
-        originalAlt: "Apextrader Page",
+        originalAlt: "The Editors Market Page",
       },
       {
-        original: "images/projects/Apextrader/2.png",
+        original: "images/projects/The Editors Market/2.png",
         loading: "lazy",
-        originalAlt: "Apextrader Page",
+        originalAlt: "The Editors Market Page",
       },
       {
-        original: "images/projects/Apextrader/3.png",
+        original: "images/projects/The Editors Market/3.png",
         loading: "lazy",
-        originalAlt: "Apextrader Page",
-      },
-      {
-        original: "images/projects/Apextrader/4.png",
-        loading: "lazy",
-        originalAlt: "Apextrader Page",
+        originalAlt: "The Editors Market Page",
       },
     ],
     tags: [
@@ -595,25 +590,40 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
     description:
       `In summary, I can create an easy and very convenient online store in Flutter language with Firebase database. It has a very beautiful UI interface.`,
     image: "images/projects/Shop App/0.png",
-    imageWebp: "images/projects/Shop App/0.png",
+    imageWebp: "images/projects/Shop App/0.webp",
     images: [
       {
-        original: "images/projects/Shop App/1.png",
+        original: "images/projects/Shop App/1.webp",
         loading: "lazy",
         originalAlt: "Shop App Page",
       },
       {
-        original: "images/projects/Shop App/2.png",
+        original: "images/projects/Shop App/2.webp",
         loading: "lazy",
         originalAlt: "Shop App Page",
       },
       {
-        original: "images/projects/Shop App/3.png",
+        original: "images/projects/Shop App/3.webp",
         loading: "lazy",
         originalAlt: "Shop App Page",
       },
       {
-        original: "images/projects/Shop App/4.png",
+        original: "images/projects/Shop App/4.webp",
+        loading: "lazy",
+        originalAlt: "Shop App Page",
+      },
+      {
+        original: "images/projects/Shop App/5.webp",
+        loading: "lazy",
+        originalAlt: "Shop App Page",
+      },
+      {
+        original: "images/projects/Shop App/6.webp",
+        loading: "lazy",
+        originalAlt: "Shop App Page",
+      },
+      {
+        original: "images/projects/Shop App/7.webp",
         loading: "lazy",
         originalAlt: "Shop App Page",
       },
@@ -640,55 +650,35 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
     imageWebp: "images/projects/My Plug/0.png",
     images: [
       {
-        original: "images/projects/My Plug/1.png",
+        original: "images/projects/My Plug/1.webp",
         loading: "lazy",
         originalAlt: "My Plug Page",
       },
       {
-        original: "images/projects/My Plug/2.png",
+        original: "images/projects/My Plug/2.webp",
         loading: "lazy",
         originalAlt: "My Plug Page",
       },
       {
-        original: "images/projects/My Plug/3.png",
+        original: "images/projects/My Plug/3.webp",
         loading: "lazy",
         originalAlt: "My Plug Page",
       },
       {
-        original: "images/projects/My Plug/4.png",
+        original: "images/projects/My Plug/4.webp",
         loading: "lazy",
         originalAlt: "My Plug Page",
       },
       {
-        original: "images/projects/My Plug/5.png",
+        original: "images/projects/My Plug/5.webp",
         loading: "lazy",
         originalAlt: "My Plug Page",
       },
       {
-        original: "images/projects/My Plug/6.png",
+        original: "images/projects/My Plug/6.webp",
         loading: "lazy",
         originalAlt: "My Plug Page",
-      },
-      {
-        original: "images/projects/My Plug/7.png",
-        loading: "lazy",
-        originalAlt: "My Plug Page",
-      },
-      {
-        original: "images/projects/My Plug/8.png",
-        loading: "lazy",
-        originalAlt: "My Plug Page",
-      },
-      {
-        original: "images/projects/My Plug/9.png",
-        loading: "lazy",
-        originalAlt: "My Plug Page",
-      },
-      {
-        original: "images/projects/My Plug/10.png",
-        loading: "lazy",
-        originalAlt: "My Plug Page",
-      },
+      }
     ],
     tags: [
       "React Native",
