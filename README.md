@@ -1,3 +1,3 @@
-## Portfolio Sample
+## Joao Portofolio
 
 - run ```npm i && npm run dev```
