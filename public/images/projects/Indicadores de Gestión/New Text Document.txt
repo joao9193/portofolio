@@ -1,0 +1,11 @@
+The project is based on the management of indicators (creation, maintenance, changes) that are considered within the company, there are types of indicators according to the way in which values are entered, some are to insert a value directly and others depend on formulas that will be calculated with the values entered there or from some other indicator.
+This being its main purpose, the way in which the system achieves the calculation or management of these indicators is by means of what is specified at the time of creating them, for which there is also a module, where the name, type will be specified. and if it were calculated by formula, then said formula will be "built" in the module.
+There are also modules to create users and to be able to export reports in pdf and excel of the indicators, there is also a module for the closing/opening of each period.
+
+Skills
+
+PHP
+MySQL
+Laravel
+JavaScript
+Angular

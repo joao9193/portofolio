@@ -1,0 +1,9 @@
+Crypto investment plans or contracts. 100 Day Contract, 0.5% Daily Earning, 1% Daily Capital Release.
+
+Skills
+
+AJAX
+MySQL
+Laravel
+API
+JSON
