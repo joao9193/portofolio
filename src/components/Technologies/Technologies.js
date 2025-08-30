@@ -44,7 +44,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Laravel, Node.js <br />
+            Laravel, Node.js, Django <br />
             MySQL, MongoDB, PostgreSQL, Firebase Cloud Firestore
           </ListParagraph>
         </ListContainer>
