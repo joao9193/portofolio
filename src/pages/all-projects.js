@@ -22,18 +22,17 @@ const AllProjects = () => {
         setFilterBy("JavaScript");
         break;
 
-      case "php":
-        setData([...projects].filter((p) => p.mainType === "php"));
-        setFilterBy("PHP");
-        break;
-
       case "website":
         setData([...projects].filter((p) => p.mainType === "website"));
-        setFilterBy("website");
+        setFilterBy("Website");
         break;
-      case "mobile":
+      case "Android":
         setData([...projects].filter((p) => p.mainType === "mobile"));
-        setFilterBy("mobile");
+        setFilterBy("Android");
+        break;
+      case "iOS":
+        setData([...projects].filter((p) => p.mainType === "mobile"));
+        setFilterBy("iOS");
         break;
 
       default:

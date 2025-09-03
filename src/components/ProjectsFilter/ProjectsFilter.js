@@ -1,6 +1,6 @@
 import React from "react";
 import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
-import { SiReact, SiJavascript, SiAndroid } from "react-icons/si";
+import { SiWayland, SiAndroidstudio,SiApple } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 
 const ProjectsFilter = ({ filter, filterBy }) => (
@@ -27,19 +27,27 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       </Button> */}
       <Button
         type="button"
-        className={filterBy === "Website" ? "active" : null}
+        className={filterBy === "website" ? "active" : null}
         aria-label="Filter by WebSite"
         onClick={() => filter("website")}
       >
-        <SiReact />
+        <SiWayland />
       </Button>
       <Button
         type="button"
-        className={filterBy === "Mobile App" ? "active" : null}
-        aria-label="Filter by Mobile App"
-        onClick={() => filter("mobile")}
+        className={filterBy === "iOS" ? "active" : null}
+        aria-label="Filter by iOS"
+        onClick={() => filter("iOS")}
       >
-        <SiAndroid />
+        <SiApple />
+      </Button>
+      <Button
+        type="button"
+        className={filterBy === "Android" ? "active" : null}
+        aria-label="Filter by Android"
+        onClick={() => filter("Android")}
+      >
+        <SiAndroidstudio />
       </Button>
       {/* <Button
         type="button"

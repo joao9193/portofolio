@@ -138,7 +138,7 @@ export const projects = [
       "ChartJS",
     ],
     id: 4,
-    order: 1,
+    order: 10,
     mainType: "website",
   },
   {
@@ -324,7 +324,7 @@ export const projects = [
       "GraphQL",
     ],
     id: 7,
-    order: 88,
+    order: 2,
     mainType: "website",
   },
   {
@@ -367,7 +367,7 @@ export const projects = [
       "Laravel Error Boundary",
     ],
     id: 8,
-    order: 88,
+    order: 4,
     mainType: "website",
   },
   {
@@ -408,10 +408,13 @@ export const projects = [
       "bootstrap",
       "SCSS",
       "Node.js",
+      "GraphQL",
+      "Tensorflow",
       "MongoDB",
+      "Docker",
     ],
     id: 9,
-    order: 4,
+    order: 1,
     mainType: "website",
   },
   {
@@ -420,7 +423,7 @@ export const projects = [
       `McAfee Magic is a new and revolutionary, cryptocurrency trading platform
 McAfee Magic enables both manual and automated trading, across multiple cryptocurrency exchanges, all at the same time and from the comfort of a single user interface!
 The ‘magic’ is being able to make a snap trade, while your pre-set automated bots are making 100’s of trades for you, (on different exchanges), in the background! – that’s McAfee Magic.`,
-    image: "images/projects/Mcafee Magic/3.png",
+    image: "images/projects/Mcafee Magic/0.png",
     images: [
       {
         original: "images/projects/Mcafee Magic/1.png",
@@ -461,7 +464,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "cryptocurrency",
     ],
     id: 89,
-    order: 1,
+    order: 5,
     mainType: "website",
   },
   {
@@ -504,7 +507,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 99,
-    order: 2,
+    order: 11,
     mainType: "website",
   },
   {
@@ -541,7 +544,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 12,
-    order: 5,
+    order: 1,
     mainType: "mobile",
   },
   {
@@ -583,7 +586,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 13,
-    order: 88,
+    order: 4,
     mainType: "mobile",
   },
     {
@@ -641,7 +644,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 14,
-    order: 88,
+    order: 9,
     mainType: "mobile",
   },
   {
@@ -695,7 +698,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 15,
-    order: 88,
+    order: 7,
     mainType: "mobile",
   },
 ];
