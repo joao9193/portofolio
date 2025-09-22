@@ -1,23 +1,28 @@
 export const projects = [
   {
-    title: "Click Colour",
+    title: "Creative Digital Studio Website",
     description:
-      "What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
-    image: "images/jpgs/hex-color-1.jpg",
-    imageWebp: "images/webps/hex-color-1.webp",
+      "I developed a visually immersive, award-winning website for Scotland-based creative studio Where Giants Roam, showcasing their CGI, VFX, and motion design work. Using modern web technologies and GSAP animations, the site delivers a smooth, cinematic experience across all devices. This project helped strengthen the studio’s global presence and earned recognition from top design awards.",
+    image: "images/projects/Where Giants Roam/0.jpg",
+    imageWebp: "images/projects/Where Giants Roam/0.jpg",
     images: [
       {
-        original: "images/projects/ClickColour/hex-color-1.jpg",
+        original: "images/projects/Where Giants Roam/1.jpg",
         loading: "lazy",
-        originalAlt: "hex-color-1",
+        originalAlt: "1",
       },
       {
-        original: "images/projects/ClickColour/hex-color-2.jpg",
+        original: "images/projects/Where Giants Roam/2.jpg",
         loading: "lazy",
-        originalAlt: "hex-color-2",
+        originalAlt: "2",
+      },
+      {
+        original: "images/projects/Where Giants Roam/2.png",
+        loading: "lazy",
+        originalAlt: "2",
       },
     ],
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["Next.js","Laravel","Tailwind CSS","GSAP","AWS","postgresql","PHP","MySQL","MongoDB","Firebase"],
     id: 1,
     order: 100,
     mainType: "javascript",
@@ -633,7 +638,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       },
     ],
     tags: [
-      "Futter",
+      "Flutter",
       "Tailwind CSS",
       "Hook",
       "Context API",
@@ -699,6 +704,57 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
     ],
     id: 15,
     order: 7,
+    mainType: "mobile",
+  },
+  {
+    title: "V1 Car Hire & Vehicle Rental",
+    description:
+      `In summary, I’ve added Google Maps and a payment system to this app. It’s built with React Native using Expo, Firebase, and Node.js. It has two apps customer side, driver side both are available for Android/iOS as well.`,
+    image: "images/projects/V1 Car Hire & Vehicle Rental/0.png",
+    imageWebp: "images/projects/V1 Car Hire & Vehicle Rental/0.png",
+    images: [
+      {
+        original: "images/projects/V1 Car Hire & Vehicle Rental/1.png",
+        loading: "lazy",
+        originalAlt: "V1 Car Hire & Vehicle Rental Page",
+      },
+      {
+        original: "images/projects/V1 Car Hire & Vehicle Rental/2.png",
+        loading: "lazy",
+        originalAlt: "V1 Car Hire & Vehicle Rental Page",
+      },
+      {
+        original: "images/projects/V1 Car Hire & Vehicle Rental/3.png",
+        loading: "lazy",
+        originalAlt: "V1 Car Hire & Vehicle Rental Page",
+      },
+      {
+        original: "images/projects/V1 Car Hire & Vehicle Rental/4.png",
+        loading: "lazy",
+        originalAlt: "V1 Car Hire & Vehicle Rental Page",
+      },
+      {
+        original: "images/projects/V1 Car Hire & Vehicle Rental/5.png",
+        loading: "lazy",
+        originalAlt: "V1 Car Hire & Vehicle Rental Page",
+      }
+    ],
+    tags: [
+      "React Native",
+      "Expo",
+      "Figma",
+      "Tailwind CSS",
+      "Stripe",
+      "google maps",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+      "iOS Apps development",
+      "Android apps development",
+      "Firebase",
+    ],
+    id: 16,
+    order: 4,
     mainType: "mobile",
   },
 ];
