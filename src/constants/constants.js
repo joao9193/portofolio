@@ -46,35 +46,41 @@ export const projects = [
     mainType: "website",
   },
   {
-    title: "React Todo/Blog",
+    title: "Immersive Website for Neighbourhood Living",
     description:
-      "When I have commenced to learn React JS, I built this nice and cool React application. It combines a Todo and blog components as well as contact. The whole stack is pointed below.",
-    image: "images/jpgs/React-todo-and-blog-home-1.jpg",
-    imageWebp: "images/webps/React-todo-and-blog-home-1.webp",
+      "I developed a responsive, storytelling-driven website for We Are Found, a lifestyle operator redefining residential and commercial spaces through curated experiences. The site blends immersive design, interactive features, and a modern frontend stack to convey the brand’s 'Live • Work • Experience' philosophy while ensuring scalability and performance.",
+    image: "images/projects/We Are Found/0.jpg",
+    imageWebp: "images/projects/We Are Found/0.jpg",
     images: [
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg",
+          "images/projects/We Are Found/1.png",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-home-1",
+        originalAlt: "1",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg",
+          "images/projects/We Are Found/2.png",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-1",
+        originalAlt: "2",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg",
+          "images/projects/We Are Found/3.png",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-2",
+        originalAlt: "3",
       },
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg",
+          "images/projects/We Are Found/4.png",
         loading: "lazy",
-        originalAlt: "React-todo-and-blog-contact",
+        originalAlt: "4",
+      },
+      {
+        original:
+          "images/projects/We Are Found/5.png",
+        loading: "lazy",
+        originalAlt: "5",
       },
     ],
     tags: [
