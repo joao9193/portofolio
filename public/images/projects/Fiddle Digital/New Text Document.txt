@@ -1,0 +1,7 @@
+https://fiddle.digital/
+
+Fiddle Digital – Award-Winning Design Agency Website | Creative Web Experience for a Audience
+
+Fiddle Digital is an acclaimed digital design agency celebrated for its innovative aesthetics and interactive experiences. As a Web Developer, I created a responsive and visually dynamic website that communicates the agency’s creative philosophy and showcases its portfolio of global projects. The site was designed to deliver smooth animations and immersive micro-interactions, while maintaining high performance across devices. To ensure long-term scalability, I implemented a modern framework that allows the team to expand features with ease. A content management system was integrated so the agency can publish case studies and update their work in real time, supporting their fast-paced creative workflow. I also optimized the platform for search engines and structured the site for local and international visibility, helping position the agency in front of a broader audience. The project successfully elevated the agency’s digital presence, reinforced its brand identity, and contributed to industry recognition, with the website earning awards from platforms such as Awwwards, CSS Design Awards, and FWA. This work demonstrates my ability to develop premium, design-focused websites that combine aesthetics, usability, and technical excellence for clients seeking a strong global impact.
+
+stack: Next.js, Laravel, PostgresSQL, PHP, SEO

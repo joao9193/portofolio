@@ -17,32 +17,57 @@ export const projects = [
         originalAlt: "2",
       },
       {
-        original: "images/projects/Where Giants Roam/2.png",
+        original: "images/projects/Where Giants Roam/3.png",
         loading: "lazy",
         originalAlt: "2",
       },
     ],
-    tags: ["Next.js","Laravel","Tailwind CSS","GSAP","AWS","postgresql","PHP","MySQL","MongoDB","Firebase"],
+    tags: ["Next.js", "Laravel", "Tailwind CSS", "GSAP", "AWS", "postgresql", "PHP", "MySQL", "MongoDB", "Firebase"],
     id: 1,
-    order: 100,
+    order: 18,
     mainType: "javascript",
   },
   {
-    title: "Sleet",
+    title: "Da Pietro 1955",
     description:
-      "This is a Laravel starter theme called sleet. A theme meant for beginning theme development from scratch with a modern workflow at that time, in February 2021.",
-    image: "images/jpgs/sleet.jpg",
-    imageWebp: "images/webps/sleet.webp",
+      "I developed Da Pietro 1955’s responsive website, blending elegant storytelling, cinematic visuals, and immersive interactions to reflect the restaurant’s rich Italian heritage and refined hospitality. Built with optimized layouts and scalable design, the platform balances atmospheric animations with high performance, preserving tradition while delivering a modern digital experience.",
+    image: "images/projects/Da Pietro/0.png",
+    imageWebp: "images/projects/Da Pietro/0.png",
     images: [
       {
-        original: "images/projects/sleet.webp",
+        original:
+          "images/projects/Da Pietro/1.png",
         loading: "lazy",
-        originalAlt: "sleet",
+        originalAlt: "1",
+      },
+      {
+        original:
+          "images/projects/Da Pietro/2.png",
+        loading: "lazy",
+        originalAlt: "2",
+      },
+      {
+        original:
+          "images/projects/Da Pietro/3.png",
+        loading: "lazy",
+        originalAlt: "3",
+      },
+      {
+        original:
+          "images/projects/Da Pietro/4.png",
+        loading: "lazy",
+        originalAlt: "4",
+      },
+      {
+        original:
+          "images/projects/Da Pietro/5.png",
+        loading: "lazy",
+        originalAlt: "5",
       }
     ],
-    tags: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML", "SCSS"],
-    id: 19,
-    order: 98,
+    tags: ["Next.js", "Tailwind CSS", "GSAP", "AWS", "postgresql", "PHP", "MySQL", "MongoDB", "Firebase"],
+    id: 2,
+    order: 16,
     mainType: "website",
   },
   {
@@ -91,12 +116,14 @@ export const projects = [
       "React router",
       "React Modal",
       "PostgreSQL",
+      "Tailwind CSS",
+      "E-commerce",
       "Axios",
       "Reddit API",
       "localstorage",
     ],
-    id: 2,
-    order: 94,
+    id: 3,
+    order: 3,
     mainType: "website",
   },
   {
@@ -149,56 +176,41 @@ export const projects = [
       "ChartJS",
     ],
     id: 4,
-    order: 10,
+    order: 8,
     mainType: "website",
   },
   {
-    title: "RLibrary",
+    title: "Pluto Pillow",
     description:
-      "Simple CRUD books system using Firebase/Firestore, Material UI, React, React Hook Form, React Router v6 and all these things bundled by vite",
-    image: "images/jpgs/ReactLibraryHomeDark.jpg",
-    imageWebp: "images/webps/ReactLibraryHomeDark.webp",
+      "I developed Pluto Pillow’s web platform, a personalized e-commerce experience that guides users through a questionnaire and algorithm to create fully customized pillows based on their sleep style and body type. The responsive, high-performance site has supported the brand’s growth since its Shark Tank debut and earned recognition from outlets like CNN, CNET, and the Oprah Sleep Awards.",
+    image: "images/projects/Pluto Pillow/0.png",
+    imageWebp: "images/projects/Pluto Pillow/0.png",
     images: [
       {
-        original: "images/projects/Rlibrary/ReactLibraryHomeDark.jpg",
+        original: "images/projects/Pluto Pillow/1.png",
         loading: "lazy",
-        originalAlt: "RLibrary Home Dark",
+        originalAlt: "Pluto Pillow Home Dark",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryHomeLight.jpg",
+        original: "images/projects/Pluto Pillow/2.png",
         loading: "lazy",
-        originalAlt: "RLibrary Home Light",
+        originalAlt: "Pluto Pillow Home Light",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryHomeSignUpErrors.jpg",
+        original: "images/projects/Pluto Pillow/3.png",
         loading: "lazy",
-        originalAlt: "RLibrary Home Sign uo Errors",
+        originalAlt: "Pluto Pillow Home Sign uo Errors",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryViewLight.jpg",
+        original: "images/projects/Pluto Pillow/4.png",
         loading: "lazy",
-        originalAlt: "RLibrary View Light",
+        originalAlt: "Pluto Pillow View Light",
       },
       {
-        original: "images/projects/Rlibrary/ReactLibraryViewAddNewBook.jpg",
+        original: "images/projects/Pluto Pillow/5.png",
         loading: "lazy",
-        originalAlt: "RLibrary View Add New Book",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewEditBook.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Edit Book",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewDeleteBook.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Delete Book",
-      },
-      {
-        original: "images/projects/Rlibrary/ReactLibraryViewMobile.jpg",
-        loading: "lazy",
-        originalAlt: "RLibrary View Mobile",
-      },
+        originalAlt: "Pluto Pillow",
+      }
     ],
     tags: [
       "React",
@@ -211,7 +223,7 @@ export const projects = [
       "Material UI",
     ],
     id: 5,
-    order: 91,
+    order: 7,
     mainType: "website",
   },
   {
@@ -270,7 +282,7 @@ export const projects = [
       "React Error Boundary",
     ],
     id: 6,
-    order: 100,
+    order: 15,
     mainType: "website",
   },
   {
@@ -335,7 +347,7 @@ export const projects = [
       "GraphQL",
     ],
     id: 7,
-    order: 2,
+    order: 10,
     mainType: "website",
   },
   {
@@ -378,7 +390,7 @@ export const projects = [
       "Laravel Error Boundary",
     ],
     id: 8,
-    order: 4,
+    order: 11,
     mainType: "website",
   },
   {
@@ -425,7 +437,7 @@ export const projects = [
       "Docker",
     ],
     id: 9,
-    order: 1,
+    order: 13,
     mainType: "website",
   },
   {
@@ -474,51 +486,58 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "API Integration",
       "cryptocurrency",
     ],
-    id: 89,
-    order: 5,
+    id: 10,
+    order: 17,
     mainType: "website",
   },
   {
-    title: "Indicadores de Gestión",
+    title: "Strategic Web Platform for Startup Growth",
     description:
-      `In summary, The project is based on the management of indicators (creation, maintenance, changes) that are considered within the company, there are types of indicators according to the way in which values are entered, some are to insert a value directly and others depend on formulas that will be calculated with the values entered there or from some other indicator.`,
-    image: "images/projects/Indicadores de Gestión/4.png",
-    imageWebp: "images/projects/Indicadores de Gestión/1.png",
+      `I developed RESULTEX.io’s responsive, visually dynamic website to communicate its venture programs—Smart MVP, Pitch to Win, and ScaleX—through bold design, fluid animations, and structured content modules. Built with a scalable, mobile-first framework optimized for performance and SEO, the platform positions RESULTEX.io as a trusted global partner for founders and investors.`,
+    image: "images/projects/RESULTEX/0.png",
+    imageWebp: "images/projects/RESULTEX/0.png",
     images: [
       {
-        original: "images/projects/Indicadores de Gestión/1.png",
+        original: "images/projects/RESULTEX/1.png",
         loading: "lazy",
-        originalAlt: "Indicadores de Gestión Page",
+        originalAlt: "RESULTEX Page",
       },
       {
-        original: "images/projects/Indicadores de Gestión/1.png",
+        original: "images/projects/RESULTEX/1.png",
         loading: "lazy",
-        originalAlt: "Indicadores de Gestión Page",
+        originalAlt: "RESULTEX Page",
       },
       {
-        original: "images/projects/Indicadores de Gestión/2.png",
+        original: "images/projects/RESULTEX/2.png",
         loading: "lazy",
-        originalAlt: "Indicadores de Gestión Page",
+        originalAlt: "RESULTEX Page",
       },
       {
-        original: "images/projects/Indicadores de Gestión/3.png",
+        original: "images/projects/RESULTEX/3.png",
         loading: "lazy",
-        originalAlt: "Indicadores de Gestión Page",
+        originalAlt: "RESULTEX Page",
       },
       {
-        original: "images/projects/Indicadores de Gestión/4.png",
+        original: "images/projects/RESULTEX/4.png",
         loading: "lazy",
-        originalAlt: "Indicadores de Gestión Page",
+        originalAlt: "RESULTEX Page",
+      },
+      {
+        original: "images/projects/RESULTEX/5.png",
+        loading: "lazy",
+        originalAlt: "RESULTEX Page",
       },
     ],
     tags: [
       "Next.js",
       "Tailwind CSS",
       "Database Administration",
+      "SEO",
+      "Django",
       "Firebase",
     ],
-    id: 99,
-    order: 11,
+    id: 11,
+    order: 9,
     mainType: "website",
   },
   {
@@ -555,7 +574,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 12,
-    order: 1,
+    order: 2,
     mainType: "mobile",
   },
   {
@@ -600,7 +619,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
     order: 4,
     mainType: "mobile",
   },
-    {
+  {
     title: "Shop App-efootwear",
     description:
       `In summary, I can create an easy and very convenient online store in Flutter language with Firebase database. It has a very beautiful UI interface.`,
@@ -655,7 +674,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 14,
-    order: 9,
+    order: 12,
     mainType: "mobile",
   },
   {
@@ -709,7 +728,7 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "Firebase",
     ],
     id: 15,
-    order: 7,
+    order: 6,
     mainType: "mobile",
   },
   {
@@ -754,14 +773,102 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
       "google maps",
       "Node.js",
       "Express.js",
-      "Firebase",
+      "Supabase",
       "iOS Apps development",
       "Android apps development",
-      "Firebase",
     ],
     id: 16,
     order: 4,
     mainType: "mobile",
+  },
+  {
+    title: "Fiddle Digital",
+    description:
+      `I developed Fiddle Digital’s award-winning website, combining smooth animations, immersive interactions, and a scalable modern framework to showcase the agency’s global portfolio. Optimized for SEO and real-time content updates, the platform reinforces the agency’s creative identity and has earned recognition from Awwwards, CSS Design Awards, and FWA.`,
+    image: "images/projects/Fiddle Digital/0.jpg",
+    imageWebp: "images/projects/Fiddle Digital/0.jpg",
+    images: [
+      {
+        original: "images/projects/Fiddle Digital/1.png",
+        loading: "lazy",
+        originalAlt: "Fiddle Digital Page",
+      },
+      {
+        original: "images/projects/Fiddle Digital/2.png",
+        loading: "lazy",
+        originalAlt: "Fiddle Digital Page",
+      },
+      {
+        original: "images/projects/Fiddle Digital/3.png",
+        loading: "lazy",
+        originalAlt: "Fiddle Digital Page",
+      },
+    ],
+    tags: [
+      "React",
+      "Figma",
+      "Tailwind CSS",
+      "Stripe",
+      "google maps",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+    ],
+    id: 17,
+    order: 1,
+    mainType: "website",
+  },
+  {
+    title: "STELLA BEAUTE",
+    description:
+      `I developed STELLA BEAUTE’s responsive website, blending elegant design, smooth animations, and immersive storytelling to showcase the brand’s innovative beauty-tech products. Built with scalable, high-performance structures, the platform enhances user experience, communicates the brand philosophy, and supports future growth.`,
+    image: "images/projects/STELLA BEAUTE/0.png",
+    imageWebp: "images/projects/STELLA BEAUTE/0.png",
+    images: [
+      {
+        original: "images/projects/STELLA BEAUTE/1.png",
+        loading: "lazy",
+        originalAlt: "STELLA BEAUTE Page",
+      },
+      {
+        original: "images/projects/STELLA BEAUTE/2.png",
+        loading: "lazy",
+        originalAlt: "STELLA BEAUTE Page",
+      },
+      {
+        original: "images/projects/STELLA BEAUTE/3.png",
+        loading: "lazy",
+        originalAlt: "STELLA BEAUTE Page",
+      },
+      {
+        original: "images/projects/STELLA BEAUTE/4.png",
+        loading: "lazy",
+        originalAlt: "STELLA BEAUTE Page",
+      },
+      {
+        original: "images/projects/STELLA BEAUTE/5.png",
+        loading: "lazy",
+        originalAlt: "STELLA BEAUTE Page",
+      },
+      {
+        original: "images/projects/STELLA BEAUTE/6.png",
+        loading: "lazy",
+        originalAlt: "STELLA BEAUTE Page",
+      },
+    ],
+    tags: [
+      "Next.js",
+      "Figma",
+      "Tailwind CSS",
+      "WordPress",
+      "google maps",
+      "Node.js",
+      "Express.js",
+      "E-commerce",
+    ],
+    id: 18,
+    order: 15,
+    mainType: "website",
   },
 ];
 
