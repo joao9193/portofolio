@@ -878,4 +878,6 @@ export const TimeLineData = [
   { year: 2019, text: "Working as a full stack developer" },
   { year: 2021, text: "Diving completely into AI World" },
   { year: 2022, text: "Starting my journey as a BlockChain developer" },
+  { year: 2023, text: "Starting my journey as a Senior Mobile App developer" },
+  { year: 2024, text: "Starting my journey as a Senior Full Stack developer" },
 ];
