@@ -34,6 +34,18 @@ const AllProjects = () => {
         setData([...projects].filter((p) => p.mainType === "mobile"));
         setFilterBy("iOS");
         break;
+      case "blockchain":
+        setData([...projects].filter((p) => p.mainType === "blockchain"));
+        setFilterBy("Blockchain");
+        break;
+      case "game":
+        setData([...projects].filter((p) => p.mainType === "game"));
+        setFilterBy("Game");
+        break;
+      case "extension":
+        setData([...projects].filter((p) => p.mainType === "extension"));
+        setFilterBy("Extension");
+        break;
 
       default:
         setData([...projects]);

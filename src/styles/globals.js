@@ -92,10 +92,20 @@ const GlobalStyles = createGlobalStyle`
   .project-card{
     display: grid;
     grid-template-rows: auto auto 1fr auto auto;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
     height: 100%;
     background-color: ${props => props.theme.colors.bgContrast};
-    box-shadow: 0 0 3px -1px ${props => props.theme.colors.shadow};
+    border-radius: 16px;
+    border: 1px solid ${props => props.theme.colors.shadow === 'rgba(0,0,0,0.3)' ? 'rgba(0,0,0,.06)' : 'rgba(255,255,255,.06)'};
+    box-shadow: 0 4px 20px -8px ${props => props.theme.colors.shadow};
+    overflow: hidden;
+    transition: transform 350ms ease, box-shadow 350ms ease, border-color 350ms ease;
+
+    &:hover{
+      transform: translateY(-6px);
+      box-shadow: 0 18px 38px -16px ${props => props.theme.colors.shadow};
+      border-color: ${props => props.theme.colors.accent1};
+    }
 
     @media ${(props) => props.theme.breakpoints.sm} {
       width: 100%;

@@ -1,7 +1,6 @@
 import React from "react";
 import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
-import { SiWayland, SiAndroidstudio,SiApple } from "react-icons/si";
-import { FaPhp } from "react-icons/fa";
+import { SiWayland, SiAndroidstudio, SiApple, SiUnity, SiGooglechrome, SiBitcoin } from "react-icons/si";
 
 const ProjectsFilter = ({ filter, filterBy }) => (
   <section>
@@ -17,17 +16,9 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       >
         All
       </Button>
-      {/* <Button
-        type="button"
-        className={filterBy === "JavaScript" ? "active" : null}
-        aria-label="Filter by JS"
-        onClick={() => filter("javascript")}
-      >
-        <SiJavascript />
-      </Button> */}
       <Button
         type="button"
-        className={filterBy === "website" ? "active" : null}
+        className={filterBy === "Website" ? "active" : null}
         aria-label="Filter by WebSite"
         onClick={() => filter("website")}
       >
@@ -49,14 +40,30 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       >
         <SiAndroidstudio />
       </Button>
-      {/* <Button
+      <Button
         type="button"
-        className={filterBy === "PHP" ? "active" : null}
-        aria-label="Filter by PHP"
-        onClick={() => filter("php")}
+        className={filterBy === "Blockchain" ? "active" : null}
+        aria-label="Filter by Blockchain"
+        onClick={() => filter("blockchain")}
       >
-        <FaPhp />
-      </Button> */}
+        <SiBitcoin />
+      </Button>
+      <Button
+        type="button"
+        className={filterBy === "Game" ? "active" : null}
+        aria-label="Filter by Game"
+        onClick={() => filter("game")}
+      >
+        <SiUnity />
+      </Button>
+      <Button
+        type="button"
+        className={filterBy === "Extension" ? "active" : null}
+        aria-label="Filter by Browser Extension"
+        onClick={() => filter("extension")}
+      >
+        <SiGooglechrome />
+      </Button>
     </FilterContainer>
   </section>
 );

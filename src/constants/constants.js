@@ -870,14 +870,453 @@ The ‘magic’ is being able to make a snap trade, while your pre-set automated
     order: 15,
     mainType: "website",
   },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Blockchain & DeFi
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "MeetDex",
+    description:
+      "AI-powered DEX aggregator that routes swaps across multiple chains for the best execution. Worked on the trading interface, wallet flows, and live price/route streaming.",
+    screenshotOf: "https://meetdex.ai/",
+    tags: ["Next.js", "TypeScript", "ethers.js", "Web3", "TailwindCSS"],
+    links: [{ label: "Website", url: "https://meetdex.ai/" }],
+    id: 19, order: 19, mainType: "blockchain",
+  },
+  {
+    title: "Arrakis Finance",
+    description:
+      "On-chain market making infrastructure for DeFi protocols. Contributed to the dApp UI, vault analytics, and multi-chain portfolio dashboards.",
+    screenshotOf: "https://arrakis.finance/",
+    tags: ["React", "TypeScript", "ethers.js", "The Graph", "TailwindCSS"],
+    links: [{ label: "Website", url: "https://arrakis.finance/" }],
+    id: 20, order: 20, mainType: "blockchain",
+  },
+  {
+    title: "Tokens Farm",
+    description:
+      "Multi-network token staking & yield farming platform. Built the staking flows, reward calculators, and admin tooling for pool deployment.",
+    screenshotOf: "https://tokensfarm.com/",
+    tags: ["Next.js", "Solidity", "Web3.js", "Hardhat", "TailwindCSS"],
+    links: [{ label: "Website", url: "https://tokensfarm.com/" }],
+    id: 21, order: 21, mainType: "blockchain",
+  },
+  {
+    title: "Special Metal X",
+    description:
+      "Tokenized commodity-backed asset platform — built marketing site and the investor portal for tracking tokenized metal positions.",
+    screenshotOf: "https://specialmetalx.com/",
+    tags: ["Next.js", "Solidity", "ethers.js", "Node.js", "PostgreSQL"],
+    links: [{ label: "Website", url: "https://specialmetalx.com/" }],
+    id: 22, order: 22, mainType: "blockchain",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Web Game
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "Crystal Caves — World3",
+    description:
+      "On-chain mining and exploration game on the World3 platform — wallet-connected progression, reward economy, and a fully responsive web build.",
+    screenshotOf: "https://world3.ai/crystalcaves/cave",
+    tags: ["Three.js", "Web3", "React", "GSAP", "Smart Contracts"],
+    links: [{ label: "Play", url: "https://world3.ai/crystalcaves/cave" }],
+    id: 23, order: 23, mainType: "game",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Mobile — AI
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "MyDriver — AI Driver Assistant",
+    description:
+      "AI-powered mobile companion for professional drivers with voice commands, smart route insights, and an OpenAI-powered conversational layer.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.TechKaleGroup.MyDriver",
+    tags: ["React Native", "OpenAI", "Node.js", "Firebase", "Maps SDK"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.TechKaleGroup.MyDriver" }],
+    id: 24, order: 24, mainType: "mobile",
+  },
+  {
+    title: "Eden — AI Image & Chatbot",
+    description:
+      "AI image generator and chatbot mobile app with multi-model routing, prompt history, and in-app monetization.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.EdenFinancialTechnologies.Eden",
+    tags: ["React Native", "OpenAI", "Stable Diffusion", "Node.js", "Stripe"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.EdenFinancialTechnologies.Eden" }],
+    id: 25, order: 25, mainType: "mobile",
+  },
+  {
+    title: "Hyperspace AI Marketplace",
+    description:
+      "Marketplace for AI-generated assets and tools — discovery, in-app purchases, and chat-based generation flows.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.hyperspace.ai.marketplace.android",
+    tags: ["React Native", "OpenAI", "Node.js", "Firebase", "Stripe"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.hyperspace.ai.marketplace.android" }],
+    id: 26, order: 26, mainType: "mobile",
+  },
+  {
+    title: "Booked AI",
+    description:
+      "AI-powered booking and scheduling app — natural-language reservation flows backed by an LLM agent.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.bookedai.prod",
+    tags: ["React Native", "OpenAI", "Node.js", "PostgreSQL"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.bookedai.prod" }],
+    id: 27, order: 27, mainType: "mobile",
+  },
+  {
+    title: "ChatWing AI",
+    description:
+      "Chat-first AI assistant focused on creative collaboration and quick prompt workflows for everyday users.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.soulkey.app",
+    tags: ["React Native", "OpenAI", "Streaming", "Node.js", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.soulkey.app" }],
+    id: 28, order: 28, mainType: "mobile",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Mobile — Travel & Tourism
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "TripHub Barcelona",
+    description:
+      "Tourist transport companion app for Barcelona — public transit routes, attractions, and offline-ready maps.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=net.triphub.transport.barcelona",
+    tags: ["React Native", "Maps", "Geolocation", "Offline-first"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=net.triphub.transport.barcelona" }],
+    id: 29, order: 29, mainType: "mobile",
+  },
+  {
+    title: "TripHub Rome",
+    description:
+      "City transport guide for Rome — routing, timetables, and curated tourist itineraries.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=net.triphub.transport.rome",
+    tags: ["React Native", "Maps", "Geolocation", "Offline-first"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=net.triphub.transport.rome" }],
+    id: 30, order: 30, mainType: "mobile",
+  },
+  {
+    title: "Camino de Santiago Community",
+    description:
+      "Pilgrim community app for the Camino de Santiago — stage planning, accommodation tracking, and a peer-to-peer feed.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.caminodesantiago.community.app.android",
+    tags: ["React Native", "Maps", "Firebase", "Push notifications"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.caminodesantiago.community.app.android" }],
+    id: 31, order: 31, mainType: "mobile",
+  },
+  {
+    title: "Places Near Me",
+    description:
+      "Location discovery app surfacing nearby attractions, food, and services — clean list/map UX with offline cache.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=mobi.placesnearme",
+    tags: ["React Native", "Geolocation", "Google Places", "Maps"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=mobi.placesnearme" }],
+    id: 32, order: 32, mainType: "mobile",
+  },
+  {
+    title: "OnTheTrip — Traveler Guide",
+    description:
+      "All-in-one traveler guide with curated trip plans, points of interest, and offline maps.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.onthetrip.app",
+    tags: ["React Native", "Maps", "REST APIs", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.onthetrip.app" }],
+    id: 33, order: 33, mainType: "mobile",
+  },
+  {
+    title: "Tern Travel",
+    description:
+      "Group travel planning app — itineraries, expense splitting, and shared trip dashboards.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.tern.travel",
+    tags: ["React Native", "Node.js", "Firebase", "Push notifications"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.tern.travel" }],
+    id: 34, order: 34, mainType: "mobile",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Mobile — Health, Wellness & Education
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "Promly — High School Social",
+    description:
+      "Social platform for high-school students focused on safe community, peer support, and counselor tools.",
+    screenshotOf: "https://apps.apple.com/us/app/promly-for-high-school/id1620173460",
+    tags: ["React Native", "Swift", "Firebase", "Push notifications"],
+    links: [{ label: "App Store", url: "https://apps.apple.com/us/app/promly-for-high-school/id1620173460" }],
+    id: 35, order: 35, mainType: "mobile",
+  },
+  {
+    title: "Imagiration — Speech Therapy",
+    description:
+      "Speech therapy companion app for young children with engaging exercises, audio recognition, and progress tracking.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.imagiration.speechtherapy2",
+    tags: ["React Native", "Speech APIs", "Animations", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.imagiration.speechtherapy2" }],
+    id: 36, order: 36, mainType: "mobile",
+  },
+  {
+    title: "Peak Fitness",
+    description:
+      "Fitness coaching app with personalized workout programs, tracking, and HealthKit/Health Connect integration.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.dod.peak",
+    tags: ["React Native", "HealthKit", "Health Connect", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.dod.peak" }],
+    id: 37, order: 37, mainType: "mobile",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Mobile — Agriculture
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "Skyfld — Agriculture Scouting",
+    description:
+      "Field scouting app for crop monitoring and pest mapping — geo-tagged observations synced from offline-first mobile clients.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.skyfld.android.prod",
+    tags: ["React Native", "Maps", "Offline sync", "GIS", "PostgreSQL"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.skyfld.android.prod" }],
+    id: 38, order: 38, mainType: "mobile",
+  },
+  {
+    title: "Field Margin",
+    description:
+      "End-to-end farm management with field mapping, task planning, livestock records, and offline-first data capture.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.fieldmargin",
+    tags: ["React Native", "Maps", "Offline sync", "GIS", "Node.js"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.fieldmargin" }],
+    id: 39, order: 39, mainType: "mobile",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Mobile — Utilities
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "Globe Weather",
+    description:
+      "Clean, fast weather forecast app with multi-location support, hourly forecasts, and home-screen widgets.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=globe.apps.weather.free",
+    tags: ["React Native", "Geolocation", "REST APIs", "Widgets"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=globe.apps.weather.free" }],
+    id: 40, order: 40, mainType: "mobile",
+  },
+  {
+    title: "VPM — City Parking",
+    description:
+      "City parking & permit companion with in-app payments, session reminders, and saved vehicles.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.sunnysw.vpm",
+    tags: ["React Native", "Stripe", "Geolocation", "Push notifications"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.sunnysw.vpm" }],
+    id: 41, order: 41, mainType: "mobile",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Multi-platform products (one card per product, all platforms linked)
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "Dormme — Student Housing",
+    description:
+      "End-to-end student housing platform: web marketing site plus iOS & Android apps with auth, listings, and chat.",
+    screenshotOf: "https://www.dormme.app/",
+    tags: ["Next.js", "React Native", "Node.js", "Tailwind CSS", "Firebase"],
+    links: [
+      { label: "Website", url: "https://www.dormme.app/" },
+      { label: "App Store", url: "https://apps.apple.com/us/app/dormme/id6742206727" },
+      { label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.dorm.dormme" },
+    ],
+    id: 42, order: 42, mainType: "website",
+  },
+  {
+    title: "Travelaizer — AI Trip Generator",
+    description:
+      "AI-powered trip itinerary generator across web + mobile — describe a vibe, get a multi-day plan with maps, bookings, and shareable export.",
+    screenshotOf: "https://travelaizer.com/",
+    tags: ["Next.js", "React Native", "OpenAI", "Node.js", "PostgreSQL", "Mapbox"],
+    links: [
+      { label: "Website", url: "https://travelaizer.com/" },
+      { label: "Google Play", url: "https://play.google.com/store/apps/details?id=me.digitalcontrol.travelaizer" },
+      { label: "App Store", url: "https://apps.apple.com/hr/app/travelaizer-kreator-izleta/id6470895914?l=hr" },
+    ],
+    id: 43, order: 43, mainType: "website",
+  },
+  {
+    title: "Beed — Global Lifestyle Platform",
+    description:
+      "Cross-platform lifestyle and community product — responsive marketing site plus iOS and Android clients with shared feature set.",
+    screenshotOf: "https://www.beed.world/",
+    tags: ["React", "React Native", "Node.js", "MongoDB", "AWS"],
+    links: [
+      { label: "Website", url: "https://www.beed.world/" },
+      { label: "App Store", url: "https://apps.apple.com/my/app/beed/id1173415425" },
+      { label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.beed&hl=en" },
+    ],
+    id: 44, order: 44, mainType: "website",
+  },
+  {
+    title: "Wranx — Microlearning",
+    description:
+      "Spaced-repetition microlearning for enterprise teams — marketing site, web learner portal, and dedicated iOS / Android apps used by global retail and pharma orgs.",
+    screenshotOf: "https://www.wranx.com/",
+    tags: ["Next.js", "React Native", "Laravel", "MySQL", "AWS"],
+    links: [
+      { label: "Website", url: "https://www.wranx.com/" },
+      { label: "Google Play", url: "https://play.google.com/store/apps/details?id=wranx.mobedia.co.uk" },
+      { label: "App Store", url: "https://apps.apple.com/us/app/wranx/id1276557647" },
+    ],
+    id: 45, order: 45, mainType: "website",
+  },
+  {
+    title: "Taco Bell — Ordering Platform",
+    description:
+      "Contributed across the Taco Bell ordering ecosystem — web ordering site plus iOS and Android apps powering store pickup, delivery, and rewards at national scale.",
+    screenshotOf: "https://tacobell.com",
+    tags: ["React", "React Native", "Node.js", "GraphQL", "AWS", "Stripe"],
+    links: [
+      { label: "Website", url: "https://tacobell.com" },
+      { label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.tacobell.ordering" },
+      { label: "App Store", url: "https://apps.apple.com/us/app/taco-bell-fast-food-delivery/id497387361" },
+    ],
+    id: 46, order: 46, mainType: "website",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // 3D Web
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "ABB — 3D Landscape Renderer",
+    description:
+      "WebGL-powered 3D landscape configurator for ABB — interactive scene loading, real-time camera control, and a high-fidelity rendering pipeline tuned for fast load on standard hardware.",
+    screenshotOf: "https://landscapes.abb.com/",
+    tags: ["Three.js", "WebGL", "React", "GLSL", "Vite"],
+    links: [{ label: "Website", url: "https://landscapes.abb.com/" }],
+    id: 47, order: 47, mainType: "website",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Unity Cross-platform Game
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "iWhot — Card Game",
+    description:
+      "Whot card game built in Unity with a web-playable build and a published iOS app. Real-time multiplayer match-making, card animations, and a cross-platform leaderboard.",
+    screenshotOf: "https://www.iwhot.ng/",
+    tags: ["Unity", "C#", "Photon", "Firebase", "iOS"],
+    links: [
+      { label: "Web", url: "https://www.iwhot.ng/" },
+      { label: "App Store", url: "https://apps.apple.com/us/app/iwhot/id6477204530" },
+    ],
+    id: 48, order: 48, mainType: "game",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Unity Mobile Games (one card per title)
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "FFS Video Games",
+    description:
+      "Casual mobile game built in Unity, published to Google Play with AdMob monetization and Firebase analytics.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.ffsvideogames.aab.eor7f2p",
+    tags: ["Unity", "C#", "AdMob", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.ffsvideogames.aab.eor7f2p" }],
+    id: 49, order: 49, mainType: "game",
+  },
+  {
+    title: "Whot Africa",
+    description:
+      "Multiplayer Whot card game tailored for African players, with offline play vs AI and online matchmaking.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.whotafrica",
+    tags: ["Unity", "C#", "Photon", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.whotafrica" }],
+    id: 50, order: 50, mainType: "game",
+  },
+  {
+    title: "Whot (Rahmayowa)",
+    description:
+      "Whot card game variant with custom rule sets, smooth card animations, and lightweight footprint.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.rahmayowa.whott",
+    tags: ["Unity", "C#", "AdMob"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.rahmayowa.whott" }],
+    id: 51, order: 51, mainType: "game",
+  },
+  {
+    title: "Football Higher / Lower",
+    description:
+      "Sports trivia game in Unity — guess if a stat is higher or lower, with daily challenges and leaderboards.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.goblitzgames.footballhigherlower",
+    tags: ["Unity", "C#", "AdMob", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.goblitzgames.footballhigherlower" }],
+    id: 52, order: 52, mainType: "game",
+  },
+  {
+    title: "Whot Naija",
+    description:
+      "Naija-flavored Whot card game with cross-device multiplayer and in-game cosmetics.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=store.imastudio.whotnaija",
+    tags: ["Unity", "C#", "Photon", "AdMob"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=store.imastudio.whotnaija" }],
+    id: 53, order: 53, mainType: "game",
+  },
+  {
+    title: "Animal Synthesis Happy",
+    description:
+      "Casual merge game where animals combine into new species — physics-based interactions and progression unlocks.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.animal.synthesis.happy",
+    tags: ["Unity", "C#", "Physics", "AdMob"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.animal.synthesis.happy" }],
+    id: 54, order: 54, mainType: "game",
+  },
+  {
+    title: "Miners of Bitcoin",
+    description:
+      "Idle clicker game themed around crypto mining — upgrade rigs, manage power costs, and run prestige loops.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.fumbgames.minersofbitcoin",
+    tags: ["Unity", "C#", "Idle game", "AdMob"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.fumbgames.minersofbitcoin" }],
+    id: 55, order: 55, mainType: "game",
+  },
+  {
+    title: "Monteith Agent",
+    description:
+      "Field-agent agriculture utility delivered as a Unity-based mobile app — record-keeping, task flows, and offline-first sync.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=palmagent.MonteithAgent.Two",
+    tags: ["Unity", "C#", "Offline-first", "REST APIs"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=palmagent.MonteithAgent.Two" }],
+    id: 56, order: 56, mainType: "game",
+  },
+  {
+    title: "Bspoke Direct",
+    description:
+      "Brand engagement Unity app delivering interactive product showcases and gamified mini-experiences.",
+    screenshotOf: "https://play.google.com/store/apps/details?id=com.bspokedirect.one",
+    tags: ["Unity", "C#", "AdMob", "Firebase"],
+    links: [{ label: "Google Play", url: "https://play.google.com/store/apps/details?id=com.bspokedirect.one" }],
+    id: 57, order: 57, mainType: "game",
+  },
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // Browser Extensions
+  // ────────────────────────────────────────────────────────────────────────────
+  {
+    title: "Authenticator",
+    description:
+      "Chrome extension for TOTP 2FA codes with secure local encrypted storage and quick clipboard copy.",
+    screenshotOf: "https://chromewebstore.google.com/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai",
+    tags: ["JavaScript", "TypeScript", "Chrome APIs", "WebExtensions", "Crypto"],
+    links: [{ label: "Chrome Web Store", url: "https://chromewebstore.google.com/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai" }],
+    id: 58, order: 58, mainType: "extension",
+  },
+  {
+    title: "RoboProfit",
+    description:
+      "Chrome extension for automated trading helpers and broker-side integrations, with strategy presets and live signal overlays.",
+    screenshotOf: "https://chromewebstore.google.com/detail/roboprofit/bjfjkjhibpmaimoapdkgcflpjlbbmind",
+    tags: ["JavaScript", "TypeScript", "Chrome APIs", "WebExtensions", "Trading APIs"],
+    links: [{ label: "Chrome Web Store", url: "https://chromewebstore.google.com/detail/roboprofit/bjfjkjhibpmaimoapdkgcflpjlbbmind" }],
+    id: 59, order: 59, mainType: "extension",
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Starting my journey as a Junior web developer" },
-  { year: 2018, text: "Working as a front-end Web/Mobile developer" },
-  { year: 2019, text: "Working as a full stack developer" },
+  { year: 2017, text: "Starting my journey as a Junior Angular, React, Next.js, Laravel, Vue.js developer" },
+  { year: 2018, text: "Starting my journey as a React-Native, Fulutter, Supabase, Firebase developer" },
+  { year: 2019, text: "Working as a TypeScript Framework developer" },
   { year: 2021, text: "Diving completely into AI World" },
-  { year: 2022, text: "Starting my journey as a BlockChain developer" },
   { year: 2023, text: "Starting my journey as a Senior Mobile App developer" },
   { year: 2024, text: "Starting my journey as a Senior Full Stack developer" },
 ];

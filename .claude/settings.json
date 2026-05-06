@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C e:/projects/Joao/portofolio diff src/constants/constants.js)",
+      "Bash(npx next *)",
+      "Bash(node -e \"const fs=require\\('fs'\\);let s=fs.readFileSync\\('src/constants/constants.js','utf8'\\);const before=s.match\\(/image: \\\\\"https:\\\\/\\\\/image\\\\.thum\\\\.io[^\\\\\"]+\\\\\"/g\\)||[];console.log\\('matches:',before.length\\);\")",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
