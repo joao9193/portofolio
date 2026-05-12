@@ -19,7 +19,7 @@ export default function ProjectModal({isOpen, toggleModal, title = '', images}) 
     style={customStyles}
   >
     <StyledModalHeader>
-      <StyledModalTitle>{title} Gallery</StyledModalTitle>
+      <StyledModalTitle>{title}</StyledModalTitle>
       <StyledModalCloseButton
         aria-label="Exit the gallery"
         onClick={toggleModal}>
